@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1900px) {
+  .artikel {
+  }
+  .buttonProductClick {
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: gray;
+  }
+  .borderArtikel {
+    margin-left: 5%;
+  }
+  .artikelBox {
+    float: left;
+    margin: 6px;
+    width: 60%;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-image: url('http://www.seamedu.com/wp-content/uploads/photography.jpg');
+  }
+  .artikelBox2 {
+    float: left;
+    margin: 6px;
+    width: 32%;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-image: url('http://www.seamedu.com/wp-content/uploads/photography.jpg');
+  }
+  .blankSpace {
+    height: 60%;
+  }
+  .konten {
+    padding-left: 5%;
+    padding-top: 2%;
+    text-align: left;
+    background-color: white;
+    height: 40%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  .buttonAllproductClick {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .artikelBox {
+    float: left;
+    margin: 0px;
+    width: 93%;
+    height: 350px;
+    margin-bottom: 15px;
+  }
+  .artikelBox2 {
+    float: left;
+    margin: 0px;
+    width: 93%;
+  }
+}

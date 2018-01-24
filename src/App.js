@@ -5,6 +5,10 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Crousel from './components/Crousel'
+import Event from './components/Event'
+import Footnote from './components/Footnote'
 
 class App extends Component {
   constructor(props) {
@@ -22,7 +26,10 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <p>Tester</p>
+          <Navbar />
+          <Crousel />
+          <Event />
+          <Footnote />
         </div>
       </Router>
     );

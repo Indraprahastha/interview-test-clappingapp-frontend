@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1900px) {
+  .foot {
+    padding-top: 50px;
+  }
+  .menuFoot {
+    padding-top: 20px;
+    width: 100%;
+    padding-left: 4%;
+  }
+  .menuDeret {
+    width: 15%;
+    margin: 10px;
+    float: left;
+    text-align: left;
+  }
+  .menuDeret2 {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+  }
+  .menuDeret3 {
+    padding-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: left;
+  }
+  .tebal {
+    border-top: 2px solid gray;
+    margin-bottom: 0px;
+  }
+  .footBagian {
+    text-align: left;
+    float: left;
+    width: 50%;
+  }
+  .footBagian2 {
+    text-align: right;
+    float: left;
+    width: 50%;
+  }
+  .foodBag {
+    width: auto;
+    float: right;
+  }
+  .imageIcon {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .menuDeret {
+    width: 100%;
+    float: none;
+  }
+}
